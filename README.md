@@ -17,4 +17,4 @@ Technologies used include:
 
 ## Launch
 
-Website can be seen live by going to this link: [LINK]
+Click the [link] (https://harmelas.github.io/nike-page/) to view the website live. 
