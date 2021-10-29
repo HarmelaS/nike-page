@@ -13,7 +13,7 @@ Technologies used include:
 
 - HTML5
 - CSS3
-  \*Javascript
+- Javascript
 
 ## Launch
 
