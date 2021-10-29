@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Nike Air Max</title>
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="https://kit.fontawesome.com/aa349b9932.js" crossorigin="anonymous"></script>   
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- NAVIGATION -->
+            <div class="navigation">
+                <a href="#" class="logo">Nike Air Max</a>                
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#purchase">Purchase</a></li>
+                    <!---------------------EDIT: 11/14/20--------------------------------->
+                    <li id="myBtn"><a href="#contact">Contact</a></li>
+
+                    <div id="myModal" class="modal">
+
+                        <div class="modal-content">
+                            <!-- CONTACT FORM  -->
+                            <form name="ContactForm">
+                                
+                                <div class="row">
+                                    <span class="close">&times;</span>
+                                    <h1 class="contact">Contact Us</h1>
+                                    
+                                    <h4>Send us feedback, questions, or a simple message & we'll get back to you shortly.</h4>
+                                    <br>
+                                    <br>
+                                    <div class="col-25">
+                                        <label for="fname">Name</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input type="text" id="fname" name="fullname" placeholder="Full Name">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="email">Email Address*</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <input type="text" id="email" name="emailaddress" placeholder="email@example.com">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="subject">Subject*</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <select id="subject" name="subject">
+                                            <option value="0">--Message Subject--</option>
+                                            <option value="1">Feedback</option>
+                                            <option value="2">Product Question</option>
+                                            <option value="3">General Message</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-25">
+                                        <label for="message">Message*</label>
+                                    </div>
+                                    <div class="col-75">
+                                        <textarea id="message" name="mess" placeholder="Write your message here" style="height:200px"></textarea>
+                                    </div>
+                                </div>
+                                <br> 
+                                <div class="row">
+                                    <!--<input type="submit" value="Submit">-->
+                                    <input type="button" value="Submit" onClick="doSubmit()">
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+            <!-- MEDIA -->
+            <div class="media">
+
+                <!-- FIRST PAGE -->
+               <div class="coverimage">
+                    <img class="cover" src="images/nike1.jpg"> 
+                </div> 
+
+                
+                <!-- SECOND PAGE -->
+                <div class="secondpage">
+                    <h1 id="about" class="title">Nike Air Max 90</h1>
+                    <div class="inside">
+                        <p>
+                            The style and versatitlty of the Air Max 90 shoes that
+                            this pair is an excellent choice as a compliment for an 
+                            athletic get-up, training attire, or a finish for a 
+                            street-style outfit. The retro running shoe can go well 
+                            perfectly with a pair of jeans.
+                            <br>
+                            <br>
+                            The Nike Air Max 90 is an important sneaker in Nike's lore. 
+                            Still a comfortable sneaker for its vintage, and because it
+                            is still in production, it is a testament to its timeless and
+                            enduring design.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- THIRD PAGE -->
+                <div class="thirdpage">
+                        <div id="purchase" class="box">
+                            <img class="adv" src="images/nike2.jpg">
+                        </div>
+    
+                        <p class="paragraph">
+                            Being a footwear classic and one of Nike's iconic shoes, the Nike Air Max 90
+                            continues to dazzle fans with its superior cushioning and trendsetting style. 
+                            The Nike Air Max 90 running shoe is known for the great comfort and lightweight
+                            feeling it provides.
+    
+                            With its Max Air unit, it gives enhanced impact cushioning on the heel. With a
+                            variety of colorways to choose that suit one's tastes and a reasonable price,
+                            one could never go wrong with this pair of kicks.
+                        </p>
+    
+                        
+    
+                        <p class="paragraph">
+                            Add a classic silhouette to your sneaker collection with a pair of Air Max 90
+                            shoes from Nike.com.
+                        </p>
+
+                        <br><br>
+    
+                        <div class="purchase-container">
+                            <div class="purchase-image">
+                            <img src="https://hypescrape.com/wp-content/uploads/2021/04/Wethenew-Sneakers-France-Nike-Air-Max-90-Dark-Concord-2_1200x_f7d254c6-00b1-4053-8322-f11493a1e8c6-600x360.png">
+                            </div>
+                            <div class="slideshow-buttons">
+                              <div class="one"></div>
+                              <div class="two"></div>
+                              <div class="three"></div>
+                              <div class="four"></div>
+                            </div>
+                            <p class="pick">choose size</p>
+                            <div class="sizes">
+                              <div class="size">5</div>
+                              <div class="size">6</div>
+                              <div class="size">7</div>
+                              <div class="size">8</div>
+                              <div class="size">9</div>
+                              <div class="size">10</div>
+                              <div class="size">11</div>
+                              <div class="size">12</div>
+                            </div>
+                            
+                            <div class="small-pick">
+                                <select name="sizes">
+                                    <option selected="selected" value="five">5</option>
+                                    <option value="six">6</option>
+                                    <option value="seven">7</option>
+                                    <option value="eight">8</option>
+                                    <option value="nine">9</option>
+                                    <option value="ten">10</option>
+                                    <option value="eleven">11</option>
+                                    <option value="twelve">12</option>
+                                </select>
+                            </div>
+                            
+                            <div class="product">
+                              <p class="shoe-desc">Women's Running Shoe</p>
+                              <h1 class="product-header">Nike Air Max 90 Premium</h1>
+                              <p class="desc">Shown: Laser Pink</p>
+                              <h2 class="product-subheader">$170</h2>
+                              <br>
+                              <p class="short-desc">The 2020 retro of an original women’s colorway of the iconic running shoe.</p>
+                              <div class="buttons">
+                                <button class="add">Add to Cart</button>
+                                <button class="like"><span>♥</span></button>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+            
+                <footer>
+                    <div class="footer-wrapper">
+                        <div class="footer-list">
+                            <ul class="list">
+                                <li class="f-list"><a class="f-item" href="">Find a Store</a></li>
+                                <li class="f-list"><a class="f-item" href="">Sign Up For Email</a></li>
+                                <li class="f-list"><a class="f-item" href="">Promotions</a></li>
+                                <li class="f-list"><a class="f-item" href="">Send Us Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-socials">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </footer>
+                
+
+            </div>
+        </div>
+        <script src="nikeScript.js"></script>
+    </body>
+</html>
